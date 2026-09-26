@@ -1,0 +1,14 @@
+:root {
+/* HEADER */
+  --background-header-color: #0a0a0a;
+  --text-header-color: #c7c7c7;
+
+/* ABOUT SECTION */
+  --color-text-h1-about: #fff;
+  --color-text-p-about: #979797;
+  
+
+/* BUTTON */
+  --background-color-button: #d3e97a;
+
+}

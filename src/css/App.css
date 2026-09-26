@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  background-color: var(--background-header-color);
+}
+
+/* HEADER PART */
+
+.header {
+  display: flex;
+  margin: 0 200px;
+  gap: 800px;
+  color: var(--text-header-color);
+  justify-content: center;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.header__logo {
+  font-size: 42px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.header__list {
+  display: flex;
+  gap: 32px;
+}
+
+.header__list > a {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.header__list-text {
+  font-size: 19px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  border-bottom: 2px solid transparent;
+  border-radius: 2px;
+  transition:
+    color 0.3s ease-in,
+    border-color 0.2s ease;
+}
+
+.header__list-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  border-radius: 2px;
+
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.header__list-text:hover {
+  color: red;
+  /* border-color: red; */
+}
+
+.header__list-text:hover::after {
+  transform: scaleX(1);
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  margin: 0 400px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  margin-top: 100px;
+}
+.about-section__info{
+  width: 500px;
+}
+.about-section__info-name{
+  color: var(--color-text-h1-about);
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 80px;
+  line-height: 1;
+}
+.about-section__info-text{
+  color: var(--color-text-p-about);
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+}
+.about-section__info__buttons{
+  display: flex;
+  margin-top: 50px;
+  gap: 10px;
+}
+.about-section__info__icons{
+  display: flex;
+  gap: 10px;
+}
+.about-section__info__icons__github{
+
+}
+.about-section__info__icons__telega{
+
+}
+.about-section__info__icons__github>a>img{
+  width: 50px;
+  height: 50px;
+}
+.about-section__info__icons__telega>a>img{
+  width: 50px;
+  height: 50px;
+}
+.about-section__avatar{
+  width: 600px;
+  height: 700px;
+  
+}
+.about-section__avatar>img{
+  border-radius: 14px;
+
+}
