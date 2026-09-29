@@ -1,14 +1,23 @@
 :root {
-/* HEADER */
+  /* HEADER */
   --background-header-color: #0a0a0a;
   --text-header-color: #c7c7c7;
 
-/* ABOUT SECTION */
+  /* ABOUT SECTION */
   --color-text-h1-about: #fff;
   --color-text-p-about: #979797;
-  
 
-/* BUTTON */
+  /* BUTTON */
   --background-color-button: #d3e97a;
 
+  /* CARD */
+  --background-color-card-left-side: #1a1a1a;
+  --color-text-card-name: #fff;
+  --color-text-card-paragraph: #979797;
+  --border-bottom-color: #484848;
+  --color-links-text-card: #d3e97a;
+
+  /* FUTURED SECTION */
+  --color-text-futured: #fff;
+  --color-text-p-futured: #979797;
 }

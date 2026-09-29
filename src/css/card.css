@@ -1,0 +1,98 @@
+.card {
+  display: flex;
+  margin-top: 100px;
+  gap: 40px;
+}
+.card__left-side {
+  background: var(--background-color-card-left-side);
+  width: 50%;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__left-side > img {
+  width: 80%;
+  border-radius: 10px;
+}
+.card__right-side {
+  flex: 1;
+  padding-top: 20px;
+}
+.card__right-side__project-name {
+  font-family: "Inter", sans-serif;
+}
+.card__rigth-side__title {
+  color: var(--color-text-card-name);
+  font-size: 36px;
+}
+.card__rigth-side__paragraph {
+  color: var(--color-text-card-paragraph);
+  font-size: 18px;
+  font-weight: 200;
+}
+.card__right-side__project-info {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-top: 32px;
+}
+.card__right-side__project-info__name {
+  border-bottom: 1px var(--border-bottom-color) solid;
+}
+.card__right-side__project-info__name-text {
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.card__right-side__project-info__year {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px var(--border-bottom-color) solid;
+  padding: 16px 0;
+}
+.card__right-side__project-info__year-string {
+  font-weight: 300;
+}
+.card__right-side__project-info__year-number {
+  font-weight: 300;
+  color: var(--color-text-p-futured);
+}
+.card__right-side__project-info__role {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px var(--border-bottom-color) solid;
+  padding: 16px 0;
+}
+.card__right-side__project-info__role-text {
+  font-weight: 300;
+}
+.card__right-side__project-info__role-name {
+  font-weight: 300;
+  color: var(--color-text-p-futured);
+}
+.card__right-side__project-info__links {
+  margin-top: 50px;
+  color: var(--color-links-text-card);
+  display: flex;
+  gap: 20px;
+}
+.card__right-side__project-info__links-demo {
+  display: flex;
+  border-bottom: 2px var(--color-links-text-card) solid;
+  gap: 5px;
+}
+.card__right-side__project-info__links-demo-text {
+  white-space: nowrap;
+}
+.card__right-side__project-info__links-git {
+  display: flex;
+  border-bottom: 2px var(--color-links-text-card) solid;
+  gap: 5px;
+  padding: 2px;
+}
+.card__right-side__project-info__links-demo > img {
+  width: 16px;
+}
+.card__right-side__project-info__links-git > img {
+  width: 24px;
+}

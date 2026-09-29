@@ -20,9 +20,9 @@ export default function AboutSection() {
                 <img src={githubIcon} alt="github-icon" />
               </a>
             </div>
-            <div className="about-section__info__icons__telega" target="_blank" rel="noopener noreferrer">
+            <div className="about-section__info__icons__telega" rel="noopener noreferrer">
               <a href="https://t.me/abylai404">
-                <img src={telegaIcon} alt="github-icon" />
+                <img src={telegaIcon} alt="github-icon" target="_blank" />
               </a>
             </div>
           </div>
